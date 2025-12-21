@@ -1,0 +1,26 @@
+[
+{
+  "directory": "D:/C Projects/build",
+  "command": "C:/msys64/mingw64/bin/gcc.exe  @CMakeFiles/MyOpenGLGame.dir/includes_C.rsp -g -o CMakeFiles/MyOpenGLGame.dir/src/main.c.obj -c \"D:/C Projects/Isometric Game + Engine/src/main.c\"",
+  "file": "D:/C Projects/Isometric Game + Engine/src/main.c",
+  "output": "CMakeFiles/MyOpenGLGame.dir/src/main.c.obj"
+},
+{
+  "directory": "D:/C Projects/build",
+  "command": "C:/msys64/mingw64/bin/gcc.exe  @CMakeFiles/MyOpenGLGame.dir/includes_C.rsp -g -o CMakeFiles/MyOpenGLGame.dir/src/core/engine.c.obj -c \"D:/C Projects/Isometric Game + Engine/src/core/engine.c\"",
+  "file": "D:/C Projects/Isometric Game + Engine/src/core/engine.c",
+  "output": "CMakeFiles/MyOpenGLGame.dir/src/core/engine.c.obj"
+},
+{
+  "directory": "D:/C Projects/build",
+  "command": "C:/msys64/mingw64/bin/gcc.exe  @CMakeFiles/MyOpenGLGame.dir/includes_C.rsp -g -o CMakeFiles/MyOpenGLGame.dir/src/core/window.c.obj -c \"D:/C Projects/Isometric Game + Engine/src/core/window.c\"",
+  "file": "D:/C Projects/Isometric Game + Engine/src/core/window.c",
+  "output": "CMakeFiles/MyOpenGLGame.dir/src/core/window.c.obj"
+},
+{
+  "directory": "D:/C Projects/build",
+  "command": "C:/msys64/mingw64/bin/gcc.exe  @CMakeFiles/MyOpenGLGame.dir/includes_C.rsp -g -o CMakeFiles/MyOpenGLGame.dir/external/glad/src/glad.c.obj -c \"D:/C Projects/Isometric Game + Engine/external/glad/src/glad.c\"",
+  "file": "D:/C Projects/Isometric Game + Engine/external/glad/src/glad.c",
+  "output": "CMakeFiles/MyOpenGLGame.dir/external/glad/src/glad.c.obj"
+}
+]
