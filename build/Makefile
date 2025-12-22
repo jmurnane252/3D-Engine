@@ -177,6 +177,30 @@ src/core/engine.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyOpenGLGame.dir/build.make CMakeFiles/MyOpenGLGame.dir/src/core/engine.c.s
 .PHONY : src/core/engine.c.s
 
+src/core/time.obj: src/core/time.c.obj
+.PHONY : src/core/time.obj
+
+# target to build an object file
+src/core/time.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyOpenGLGame.dir/build.make CMakeFiles/MyOpenGLGame.dir/src/core/time.c.obj
+.PHONY : src/core/time.c.obj
+
+src/core/time.i: src/core/time.c.i
+.PHONY : src/core/time.i
+
+# target to preprocess a source file
+src/core/time.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyOpenGLGame.dir/build.make CMakeFiles/MyOpenGLGame.dir/src/core/time.c.i
+.PHONY : src/core/time.c.i
+
+src/core/time.s: src/core/time.c.s
+.PHONY : src/core/time.s
+
+# target to generate assembly for a file
+src/core/time.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyOpenGLGame.dir/build.make CMakeFiles/MyOpenGLGame.dir/src/core/time.c.s
+.PHONY : src/core/time.c.s
+
 src/core/window.obj: src/core/window.c.obj
 .PHONY : src/core/window.obj
 
@@ -240,6 +264,9 @@ help:
 	@echo "... src/core/engine.obj"
 	@echo "... src/core/engine.i"
 	@echo "... src/core/engine.s"
+	@echo "... src/core/time.obj"
+	@echo "... src/core/time.i"
+	@echo "... src/core/time.s"
 	@echo "... src/core/window.obj"
 	@echo "... src/core/window.i"
 	@echo "... src/core/window.s"

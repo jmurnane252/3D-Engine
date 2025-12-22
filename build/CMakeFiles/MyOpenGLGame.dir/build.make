@@ -102,11 +102,26 @@ CMakeFiles/MyOpenGLGame.dir/src/core/engine.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/MyOpenGLGame.dir/src/core/engine.c.s"
 	C:/msys64/mingw64/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:/C Projects/Isometric Game + Engine/src/core/engine.c" -o CMakeFiles/MyOpenGLGame.dir/src/core/engine.c.s
 
+CMakeFiles/MyOpenGLGame.dir/src/core/time.c.obj: CMakeFiles/MyOpenGLGame.dir/flags.make
+CMakeFiles/MyOpenGLGame.dir/src/core/time.c.obj: CMakeFiles/MyOpenGLGame.dir/includes_C.rsp
+CMakeFiles/MyOpenGLGame.dir/src/core/time.c.obj: D:/C\ Projects/Isometric\ Game\ +\ Engine/src/core/time.c
+CMakeFiles/MyOpenGLGame.dir/src/core/time.c.obj: CMakeFiles/MyOpenGLGame.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:/C Projects/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/MyOpenGLGame.dir/src/core/time.c.obj"
+	C:/msys64/mingw64/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MyOpenGLGame.dir/src/core/time.c.obj -MF CMakeFiles/MyOpenGLGame.dir/src/core/time.c.obj.d -o CMakeFiles/MyOpenGLGame.dir/src/core/time.c.obj -c "D:/C Projects/Isometric Game + Engine/src/core/time.c"
+
+CMakeFiles/MyOpenGLGame.dir/src/core/time.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/MyOpenGLGame.dir/src/core/time.c.i"
+	C:/msys64/mingw64/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:/C Projects/Isometric Game + Engine/src/core/time.c" > CMakeFiles/MyOpenGLGame.dir/src/core/time.c.i
+
+CMakeFiles/MyOpenGLGame.dir/src/core/time.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/MyOpenGLGame.dir/src/core/time.c.s"
+	C:/msys64/mingw64/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:/C Projects/Isometric Game + Engine/src/core/time.c" -o CMakeFiles/MyOpenGLGame.dir/src/core/time.c.s
+
 CMakeFiles/MyOpenGLGame.dir/src/core/window.c.obj: CMakeFiles/MyOpenGLGame.dir/flags.make
 CMakeFiles/MyOpenGLGame.dir/src/core/window.c.obj: CMakeFiles/MyOpenGLGame.dir/includes_C.rsp
 CMakeFiles/MyOpenGLGame.dir/src/core/window.c.obj: D:/C\ Projects/Isometric\ Game\ +\ Engine/src/core/window.c
 CMakeFiles/MyOpenGLGame.dir/src/core/window.c.obj: CMakeFiles/MyOpenGLGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:/C Projects/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/MyOpenGLGame.dir/src/core/window.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:/C Projects/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/MyOpenGLGame.dir/src/core/window.c.obj"
 	C:/msys64/mingw64/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MyOpenGLGame.dir/src/core/window.c.obj -MF CMakeFiles/MyOpenGLGame.dir/src/core/window.c.obj.d -o CMakeFiles/MyOpenGLGame.dir/src/core/window.c.obj -c "D:/C Projects/Isometric Game + Engine/src/core/window.c"
 
 CMakeFiles/MyOpenGLGame.dir/src/core/window.c.i: cmake_force
@@ -121,7 +136,7 @@ CMakeFiles/MyOpenGLGame.dir/external/glad/src/glad.c.obj: CMakeFiles/MyOpenGLGam
 CMakeFiles/MyOpenGLGame.dir/external/glad/src/glad.c.obj: CMakeFiles/MyOpenGLGame.dir/includes_C.rsp
 CMakeFiles/MyOpenGLGame.dir/external/glad/src/glad.c.obj: D:/C\ Projects/Isometric\ Game\ +\ Engine/external/glad/src/glad.c
 CMakeFiles/MyOpenGLGame.dir/external/glad/src/glad.c.obj: CMakeFiles/MyOpenGLGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:/C Projects/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/MyOpenGLGame.dir/external/glad/src/glad.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:/C Projects/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/MyOpenGLGame.dir/external/glad/src/glad.c.obj"
 	C:/msys64/mingw64/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MyOpenGLGame.dir/external/glad/src/glad.c.obj -MF CMakeFiles/MyOpenGLGame.dir/external/glad/src/glad.c.obj.d -o CMakeFiles/MyOpenGLGame.dir/external/glad/src/glad.c.obj -c "D:/C Projects/Isometric Game + Engine/external/glad/src/glad.c"
 
 CMakeFiles/MyOpenGLGame.dir/external/glad/src/glad.c.i: cmake_force
@@ -136,6 +151,7 @@ CMakeFiles/MyOpenGLGame.dir/external/glad/src/glad.c.s: cmake_force
 MyOpenGLGame_OBJECTS = \
 "CMakeFiles/MyOpenGLGame.dir/src/main.c.obj" \
 "CMakeFiles/MyOpenGLGame.dir/src/core/engine.c.obj" \
+"CMakeFiles/MyOpenGLGame.dir/src/core/time.c.obj" \
 "CMakeFiles/MyOpenGLGame.dir/src/core/window.c.obj" \
 "CMakeFiles/MyOpenGLGame.dir/external/glad/src/glad.c.obj"
 
@@ -144,12 +160,13 @@ MyOpenGLGame_EXTERNAL_OBJECTS =
 
 MyOpenGLGame.exe: CMakeFiles/MyOpenGLGame.dir/src/main.c.obj
 MyOpenGLGame.exe: CMakeFiles/MyOpenGLGame.dir/src/core/engine.c.obj
+MyOpenGLGame.exe: CMakeFiles/MyOpenGLGame.dir/src/core/time.c.obj
 MyOpenGLGame.exe: CMakeFiles/MyOpenGLGame.dir/src/core/window.c.obj
 MyOpenGLGame.exe: CMakeFiles/MyOpenGLGame.dir/external/glad/src/glad.c.obj
 MyOpenGLGame.exe: CMakeFiles/MyOpenGLGame.dir/build.make
 MyOpenGLGame.exe: CMakeFiles/MyOpenGLGame.dir/linkLibs.rsp
 MyOpenGLGame.exe: CMakeFiles/MyOpenGLGame.dir/objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="D:/C Projects/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable MyOpenGLGame.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="D:/C Projects/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable MyOpenGLGame.exe"
 	D:/CMake/bin/cmake.exe -E rm -f CMakeFiles/MyOpenGLGame.dir/objects.a
 	C:/msys64/mingw64/bin/ar.exe qc CMakeFiles/MyOpenGLGame.dir/objects.a @CMakeFiles/MyOpenGLGame.dir/objects1.rsp
 	C:/msys64/mingw64/bin/gcc.exe -g -Wl,--whole-archive CMakeFiles/MyOpenGLGame.dir/objects.a -Wl,--no-whole-archive -o MyOpenGLGame.exe -Wl,--out-implib,libMyOpenGLGame.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/MyOpenGLGame.dir/linkLibs.rsp

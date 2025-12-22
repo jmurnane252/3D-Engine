@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/MyOpenGLGame.dir/external/glad/src/glad.c.obj.d"
   "CMakeFiles/MyOpenGLGame.dir/src/core/engine.c.obj"
   "CMakeFiles/MyOpenGLGame.dir/src/core/engine.c.obj.d"
+  "CMakeFiles/MyOpenGLGame.dir/src/core/time.c.obj"
+  "CMakeFiles/MyOpenGLGame.dir/src/core/time.c.obj.d"
   "CMakeFiles/MyOpenGLGame.dir/src/core/window.c.obj"
   "CMakeFiles/MyOpenGLGame.dir/src/core/window.c.obj.d"
   "CMakeFiles/MyOpenGLGame.dir/src/main.c.obj"

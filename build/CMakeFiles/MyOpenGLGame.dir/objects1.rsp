@@ -1,1 +1,1 @@
-CMakeFiles/MyOpenGLGame.dir/src/main.c.obj CMakeFiles/MyOpenGLGame.dir/src/core/engine.c.obj CMakeFiles/MyOpenGLGame.dir/src/core/window.c.obj CMakeFiles/MyOpenGLGame.dir/external/glad/src/glad.c.obj
+CMakeFiles/MyOpenGLGame.dir/src/main.c.obj CMakeFiles/MyOpenGLGame.dir/src/core/engine.c.obj CMakeFiles/MyOpenGLGame.dir/src/core/time.c.obj CMakeFiles/MyOpenGLGame.dir/src/core/window.c.obj CMakeFiles/MyOpenGLGame.dir/external/glad/src/glad.c.obj

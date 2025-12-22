@@ -5,6 +5,7 @@ set(SRC
     src/main.c
     src/core/engine.c
     src/core/window.c
+    src/core/time.c
 )
 
 file(GLOB CORE_SRC src/core/*.c)

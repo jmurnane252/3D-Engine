@@ -13,6 +13,12 @@
 },
 {
   "directory": "D:/C Projects/build",
+  "command": "C:/msys64/mingw64/bin/gcc.exe  @CMakeFiles/MyOpenGLGame.dir/includes_C.rsp -g -o CMakeFiles/MyOpenGLGame.dir/src/core/time.c.obj -c \"D:/C Projects/Isometric Game + Engine/src/core/time.c\"",
+  "file": "D:/C Projects/Isometric Game + Engine/src/core/time.c",
+  "output": "CMakeFiles/MyOpenGLGame.dir/src/core/time.c.obj"
+},
+{
+  "directory": "D:/C Projects/build",
   "command": "C:/msys64/mingw64/bin/gcc.exe  @CMakeFiles/MyOpenGLGame.dir/includes_C.rsp -g -o CMakeFiles/MyOpenGLGame.dir/src/core/window.c.obj -c \"D:/C Projects/Isometric Game + Engine/src/core/window.c\"",
   "file": "D:/C Projects/Isometric Game + Engine/src/core/window.c",
   "output": "CMakeFiles/MyOpenGLGame.dir/src/core/window.c.obj"
